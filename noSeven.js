@@ -1,30 +1,10 @@
-
-function noSix() {
+function noSeven() {
 
   var variableNumber = [];
 
   var aNumber = 8,
       anotherNumber = 2,
       yetAnotherNumber = 1337;
-
-  for (i=0; i< 7; i++) {
-    variableNumber[i] = "monkey" + i ;
-  }
-  for (i=7; i < 14; i++){
-    variableNumber[i] = (i);
-  }
-  for (i = 14; i < 20; i++){
-    aBool = Math.random();
-    if (aBool < 0.5) {
-    variableNumber[i] = true;
-  } else {
-      variableNumber[i] = false;
-    }
-  }
-  console.log(variableNumber);
-
-
-  console.log(variableNumber.length);
 
   var aBool = true;
   var aString = "an expensive piece of cloth that hardly covers anything."
@@ -63,5 +43,8 @@ for(i = 0; i < variableNumber.length; i++) {
       console.log(numberString);
       var stringNumber = (aStringNumber + aNumberVariable);
       console.log(stringNumber);
-    
-}
+
+      console.log(typeof numberString);
+       console.log(typeof stringNumber);
+
+    }
